@@ -1,0 +1,42 @@
+.jadwal-absen{
+    display:flex;
+    gap:5px;
+}
+
+.widtha{
+    width: 7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flexs{
+    display: flex;
+}
+
+.button-foto{
+    background-color: #0080FE;
+    color: white;
+    border-radius: 6px;
+    padding: 3px 5px;
+}
+
+.button-kirim{
+    background-color: #5CB85C;
+    color: white;
+    border-radius: 6px;
+    padding: 3px 5px;
+}
+
+@media only screen and (max-width : 480px){
+    .jadwal-absen{
+        display: block;
+        
+    }
+    .widtha{
+        width: auto;
+    }
+    .flexs{
+        display: block;
+        margin-bottom: 4px;
+    }    
+}
